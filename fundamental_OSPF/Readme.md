@@ -51,6 +51,8 @@ R4(config-if)# ip address 4.4.4.4 255.255.255.255
 
 ### 2. Konfigurasi OSPF dan Interface
 Aktifkan OSPF pada setiap router. Gunakan Wildcard Mask (kebalikan dari netmask) untuk menentukan network yang didaftarkan ke dalam Area 0.
+
+
 Catatan: Jangan aktifkan OSPF pada link internet di R1. Gunakan perintah passive-interface pada interface yang tidak perlu mengirim paket
 hello (seperti loopback atau ke arah user) untuk meningkatkan keamanan dan efisiensi.
 
