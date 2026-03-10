@@ -138,6 +138,8 @@ O*E2 0.0.0.0/0 [110/1] via 10.0.13.1, FastEthernet1/0
 
 Pada R4, terjadi Equal Cost Multi-Path (ECMP) atau load balance, di mana rute ke luar memiliki dua jalur dengan cost yang sama.
 
+## demikian untuk konfigurasi dasar OSPF, ini dii buat untuk catatan agar lebih mudah dalam pembelajaran ulang di masa depan
+
 
 
 
